@@ -3,7 +3,7 @@ const sumSalaries = (obj) => {
 
   return values.reduce((accum, currentNum) => {
     return accum + currentNum;
-  });
+  }, 0);
 };
 
 let salaries = {
